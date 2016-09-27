@@ -1,0 +1,16 @@
+let mapleader = ","
+command! Evb :vsplit ~/.vimrc.before
+command! Svb :source ~/.vimrc.before
+set hidden
+set shiftwidth=4
+set tabstop=4
+"command! To_php
+ab dd ddd();<Left><Left>
+ab vd var_dump(__FILE__. __LINE__, );die;<Left><Left><Left><Left><Left><Left>
+autocmd FileType php noremap <C-M> :w!<CR>:!/usr/bin/php %<CR>
+inoremap <leader>; <C-o>A;
+noremap <leader>; A;<Esc>
+
+inoremap <leader>;; <C-o>A:
+noremap <leader>;; A:<Esc>:
+
