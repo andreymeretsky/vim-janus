@@ -1,0 +1,6 @@
+[submodule "vim-scriptease"]
+	path = vim-scriptease
+	url = https://github.com/tpope/vim-scriptease.git
+[submodule "auto-pairs"]
+	path = auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git
